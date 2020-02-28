@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    cursor: pointer;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.modal.hidden {
+    display: none;
+}

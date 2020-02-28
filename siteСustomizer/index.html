@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Customizer</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+
+            <!-- logo -->
+            <div id="logo" class="logo">
+                <img src="" alt="logo">
+            </div>
+
+            <div class="logo modal hidden">
+                <input id="file-local" class="input-file" type="file">
+                <input id="file-remote" type="text">
+                <button id="logo-button">Change logo</button>
+            </div>
+
+            <!-- nav -->
+
+            <nav>
+                <ul id="nav">
+                    <li data-title="Главная"><a href="#">Главная</a></li>
+                    <li data-title="Курсы"><a href="#">Курсы</a></li>
+                    <li data-title="Новости"><a href="#">Новости</a></li>
+                    <li data-title="Партнеры"><a href="#">Партнеры</a></li>
+                    <li data-title="Контакты"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav modal hidden">
+                <h3>Меню</h3>
+                <ul id="nav-customizer"></ul>
+                <button type="button" id="add-nav-button">Добавить еще один</button>
+                <button type="button" id="save-nav-button">Сохранить</button>
+            </div>
+        </header>
+    </div>
+
+    <script src="./js/logo.js"></script>
+    <script src="./js/nav.js"></script>
+</body>
+</html>
